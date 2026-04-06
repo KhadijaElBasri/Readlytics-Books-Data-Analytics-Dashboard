@@ -44,15 +44,12 @@
 
 | Prédiction IA | Importance Variables |
 |---|---|
-| ![Importance](outputs/dashboard_screenshots/importance_variables_model_ai.png) |
+| ![AI Prédiction](outputs/dashboard_screenshots/ai_random_forest_success.png) | ![Importance](outputs/dashboard_screenshots/importance_variables_model_ai.png) |
 
-| Filtres Littéraires | AI Random Forest Success |
+| Top 10 des Livres | Vue d'ensemble Dataset |
 |---|---|
-| ![Filtres](outputs/dashboard_screenshots/dashboard_filtres_litteraires_top_livres.png) | ![AI Success](outputs/dashboard_screenshots/ai_random_forest_success.png) |
+| ![Top 10 Livres](outputs/dashboard_screenshots/dashboard_filtres_litteraires_top_livres.png) | ![Dataset](outputs/dashboard_screenshots/dataset_overview.png) |
 
-| Vue d'ensemble Dataset |
-|---|
-| ![Dataset](outputs/dashboard_screenshots/dataset_overview.png) |
 
 ---
 
