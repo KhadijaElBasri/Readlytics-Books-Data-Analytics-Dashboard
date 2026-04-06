@@ -1,1 +1,0 @@
-# Task: Add screenshots to README.md Captures d'écran section&#10;&#10;## Steps:&#10;1. [x] Create TODO.md with task steps&#10;2. [ ] Edit README.md to add new row with two screenshots&#10;3. [ ] Update TODO.md with completion&#10;4. [ ] Verify and attempt_completion&#10;
