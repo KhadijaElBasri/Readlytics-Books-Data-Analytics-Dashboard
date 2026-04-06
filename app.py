@@ -732,7 +732,6 @@ if page == "Données":
     """, unsafe_allow_html=True)
 
     # Top 10 by popularity_score
-    # Top 10 avec covers (créé image_url si absent)
     top_df = filtered.nlargest(10, 'popularity_score')[['title', 'authors', 'average_rating', 'ratings_count', 'isbn13', 'isbn']].copy()
     top_df['isbn_clean'] = top_df['isbn13'].fillna(top_df['isbn']).astype(str).str.strip()
     top_df.loc[top_df["isbn_clean"].isin(["nan", "", "None", "none"]), "isbn_clean"] = np.nan
@@ -742,7 +741,7 @@ if page == "Données":
         "https://via.placeholder.com/150x200/1a1f2e/ffffff?text=Couverture"
     )
     
-    # Icônes SVG star élégantes
+    # Icônes
     star_icon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="#818cf8"><path d="M12 .587l3.668 7.428 8.332 1.151-6 5.856 1.417 8.256L12 18.973l-7.417 3.905 1.417-8.256-6-5.856 8.332-1.151z"/></svg>'
     users_icon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="#a855f7"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>'
     
