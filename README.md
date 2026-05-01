@@ -2,7 +2,7 @@
 
 > Mini-Projet DataViz — Module Visualisation de Données  
 > Dataset : Goodreads Books | Source : Kaggle  
-> Technologies : Python · Streamlit · Plotly · Scikit-learn · Pandas · NumPy
+> Technologies : Python · Streamlit · Plotly · Scikit-learn · Pandas · NumPy · Power BI
 
 ---
 
@@ -60,6 +60,7 @@ books_project/
 │
 ├── app.py                          # Application Streamlit principale (dashboard + ML inline)
 ├── books_analytics.ipynb           # Notebook EDA complet (nettoyage + visualisations)
+├── Books_visualisation.pbix         # Fichier Power BI Desktop (dashboard interactif)
 ├── requirements.txt                # Dépendances Python
 ├── README.md                       # Documentation du projet
 │
